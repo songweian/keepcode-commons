@@ -5,10 +5,10 @@
     <parent>
         <groupId>work.keepcode.commons</groupId>
         <artifactId>commons-project</artifactId>
-        <version>${revision}</version>
+        <version>1.0-SNAPSHOT</version>
+<!--        <relativePath>../pom.xml</relativePath>-->
     </parent>
     <artifactId>commons-jooq</artifactId>
-    <version>${revsion}</version>
     <properties>
         <spring-cloud.version>2022.0.4</spring-cloud.version>
     </properties>
