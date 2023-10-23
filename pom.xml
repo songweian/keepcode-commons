@@ -10,15 +10,26 @@
     <name>commons utils</name>
     <description>commons utils</description>
     <url>https://keepcode.work</url>
-    <scm>
-        <url>https://github.com/songweian/keepcode-commons</url>
-    </scm>
+
     <licenses>
         <license>
             <name>The Apache License, Version 2.0</name>
             <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
         </license>
     </licenses>
+
+    <developers>
+        <developer>
+            <name>weian404</name>
+            <email>weian404@gmail.com</email>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/songweian/keepcode-commons.git</connection>
+        <developerConnection>scm:git:ssh://github.com:songweian/keepcode-commons.git</developerConnection>
+        <url>http://github.com/songweian/keepcode-commons/tree/main</url>
+    </scm>
     <properties>
         <revsion>1.0-SNAPSHOT</revsion>
         <java.version>21</java.version>
