@@ -4,7 +4,7 @@
 
     <groupId>work.keepcode.commons</groupId>
     <artifactId>commons-project</artifactId>
-    <version>1.0</version>
+    <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>commons utils</name>
@@ -32,10 +32,17 @@
         <url>https://github.com/songweian/keepcode-commons/tree/main</url>
     </scm>
     <properties>
-        <revsion>1.0</revsion>
+        <revsion>1.0-SNAPSHOT</revsion>
         <java.version>21</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <testcontainer.jupiter>1.18.3</testcontainer.jupiter>
+        <lombok.version>1.18.30</lombok.version>
+        <gson.version>2.10.1</gson.version>
+        <commons.lang>3.13.0</commons.lang>
+        <sl4j.api.version>2.0.7</sl4j.api.version>
+        <spring.web>6.0.11</spring.web>
+        <jakarta.servlet>6.0.0</jakarta.servlet>
     </properties>
 
     <modules>

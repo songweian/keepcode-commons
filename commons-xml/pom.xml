@@ -5,7 +5,7 @@
     <parent>
         <groupId>work.keepcode.commons</groupId>
         <artifactId>commons-project</artifactId>
-        <version>1.0</version>
+        <version>1.0-SNAPSHOT</version>
     </parent>
     <packaging>jar</packaging>
     <description>commons utils</description>
@@ -36,21 +36,24 @@
         <dependency>
             <groupId>work.keepcode.commons</groupId>
             <artifactId>commons-lang</artifactId>
-            <version>1.0</version>
+            <version>${revsion}</version>
         </dependency>
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
+            <version>${gson.version}</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
+            <version>${lombok.version}</version>
         </dependency>
         <dependency>
             <groupId>org.testcontainers</groupId>
             <artifactId>junit-jupiter</artifactId>
             <scope>test</scope>
+            <version>${testcontainer.jupiter}</version>
         </dependency>
     </dependencies>
 </project>
