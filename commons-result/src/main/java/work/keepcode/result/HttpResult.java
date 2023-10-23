@@ -1,4 +1,4 @@
-package pro.justmine.result;
+package work.keepcode.result;
 
 public interface HttpResult extends Result0 {
 

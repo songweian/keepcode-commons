@@ -1,4 +1,4 @@
-package pro.justmine.result;
+package work.keepcode.result;
 
 public sealed interface Result<T> extends Result0 {
     static <T> Some<T> some(T value) {

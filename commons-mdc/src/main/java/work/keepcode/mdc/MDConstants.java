@@ -1,4 +1,4 @@
-package pro.justmine.mdc;
+package work.keepcode.mdc;
 
 public class MDConstants {
     private MDConstants() {
