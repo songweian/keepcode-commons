@@ -155,30 +155,6 @@
                     </execution>
                 </executions>
             </plugin>
-<!--            <plugin>-->
-<!--                <groupId>org.apache.maven.plugins</groupId>-->
-<!--                <artifactId>maven-checksum-plugin</artifactId>-->
-<!--&lt;!&ndash;                <version>1.3.0</version>&ndash;&gt;-->
-<!--                <executions>-->
-<!--                    <execution>-->
-<!--                        <id>checksum</id>-->
-<!--                        <phase>package</phase>-->
-<!--                        <goals>-->
-<!--                            <goal>checksum</goal>-->
-<!--                        </goals>-->
-<!--                        <configuration>-->
-<!--                            <fileSets>-->
-<!--                                <fileSet>-->
-<!--                                    <directory>${project.build.directory}</directory>-->
-<!--                                    <includes>-->
-<!--                                        <include>*.jar</include>-->
-<!--                                    </includes>-->
-<!--                                </fileSet>-->
-<!--                            </fileSets>-->
-<!--                        </configuration>-->
-<!--                    </execution>-->
-<!--                </executions>-->
-<!--            </plugin>-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
