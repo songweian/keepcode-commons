@@ -36,7 +36,7 @@
         <dependency>
             <groupId>work.keepcode.commons</groupId>
             <artifactId>commons-lang</artifactId>
-            <version>${revsion}</version>
+            <version>1.0</version>
         </dependency>
         <dependency>
             <groupId>com.google.code.gson</groupId>
